@@ -1,0 +1,534 @@
+/* general and common styles */
+header{
+    background: rgb(49, 138, 123);
+}
+#backBtn{
+    color: #fff;
+    font-size: 30px;
+}
+.backBtnDiv{
+    margin-top: 2%;
+    margin-left: 3%;
+    padding: 5px 13px;
+}
+.addNewDiv{
+    position: absolute;
+    right:5%; top: 13%;
+    padding: 11px 13px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: lightcoral;  
+}
+.newBtn{
+    color: #fff;
+    font-size: 16px;
+}
+.titleDiv{
+    text-align: center
+}
+.titleh1{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.titlep{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.auxhead{
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    background-color: rgb(49, 138, 123); 
+    height: 40px
+}
+.customNavBar{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.customNavBar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.customNavBar a:hover{
+    border-top: 2px solid #fff;
+    color: white
+}
+#Cactive{
+    border-top: 4px solid #fff;
+}
+@media only screen and (min-width: 768px){
+    .customNavBar a{
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .customNavBar{
+        padding: 0px;
+        height: 30px;
+    }
+    .customNavBar a{
+        font-size: 9px;
+        padding: 5px;
+
+    }
+}
+@media only screen and (max-width: 375px){
+    .customNavBar a{
+        font-size: 10px;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .customNavBar a{
+        font-size: 10px;
+        margin-left: 12%;
+    }
+}
+
+/* styles for landing page */
+#indexBody{
+    background: url('../images/lnq1.jpg');
+}
+#opq{
+background: rgba(30, 71, 48, 0.719);
+}
+#head{
+    padding: 10px;
+    text-align: center;
+}
+#logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 5px black;
+    font-size: 70px;
+}
+#logoArticle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightgrey;
+    text-shadow: 1px 1px 2px black;
+}
+#loginForm{
+    padding: 40px;
+}
+.customInput{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px transparent;
+    background: transparent;
+    color: #fff;
+}
+.customInput:focus{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px transparent;
+}
+#fgtPswd{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-style: italic;
+    font-size: 12px;
+}
+#signInBtn{
+    border-radius: 0px;
+}
+#signUpBtn{
+    margin-left: 10%;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+#indexfooter{
+    border-top: 1px solid #eee
+}
+.footerD{
+    color: #fff;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10%;
+}
+/* styles for sign up page */
+
+.signUpInput{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border-bottom: 1px solid rgb(49, 138, 123);
+    border-radius: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px transparent;
+    background: transparent;
+    color: rgb(49, 138, 123);
+}
+.signUpInput:focus{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border-bottom: 1px solid rgb(49, 138, 123);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px transparent;
+}
+#signInBtnB{
+    background: rgb(49, 138, 123);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formIcon{
+    color: rgb(49, 138, 123);
+}
+#gndrTxt{
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.msgalerts{
+    padding: 5px;
+    color: mediumaquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+/* side navigation styles */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(49, 138, 123);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    margin-top: 5%;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 15px;
+}
+#openN{
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidebardp{
+    margin-top:10%;
+    margin-left: 5%;
+    width: 90px;
+    height:90px;
+    border: 0px;
+}
+.sidebarname{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(49, 138, 123);
+    font-size: 18px;
+}
+.sidebaruname{
+    padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategray;
+    font-size: small;
+}
+.sidebarstatus{
+    padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(49, 138, 123);
+    font-size: smaller;  
+}
+/* userhome/chats page */
+#contentArea{
+    height: 400px;
+}
+
+/************************** request popup styles*************************** */
+/* Popup container */
+.popup {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: #fff;
+    color: rgb(37, 51, 58);
+    box-shadow: 1px 1px 1px rgb(37, 51, 58);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/* profile page styling */
+#dp{
+    background: transparent;
+    border: 0px ;
+    z-index: 9999;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+#userDetails{
+    margin-top: 13%;
+    padding-left: 30px;
+}
+#snameName{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(49, 138, 123);
+    font-size: 30px;
+}
+#username{
+    color: gray
+}
+#status{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategray;
+    font-size: 15px;
+}
+#frndsFrms{
+    color: rgb(49, 138, 123);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fnf{
+    background: rgb(49, 138, 123);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+#updateArea{
+    margin-top: 10px;
+}
+.pbtns{
+    background: rgb(49, 138, 123);;
+    color: #fff;
+    border: 0px;
+}
+.sbtns{
+    color: rgb(49, 138, 123);
+    border: 1px solid rgb(49, 138, 123);
+    padding: 5px;
+    text-align: center;
+    font-size: smaller;
+    cursor: pointer;
+}
+#profilepic{
+    width: 150px;
+    height: 150px;
+}
+/* styles for search page */
+#inputsearch{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px transparent;
+    background: transparent;
+    color: #fff;
+    margin: 5%;
+}
+#inputsearch:focus{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px transparent;
+}
+.customModal{
+    margin-top: 5%;
+}
+/* media queries */
+@media only screen and (min-width: 1024px) {
+    #head{
+        margin-top: 5%;
+    }
+    .customInput{
+        width: 300px;
+    }
+    #signInBtn{
+        width: 120px;
+    }
+    #loginForm{
+        margin-top: 10%;
+    }
+    #indexfooter{
+        margin-top: 17%;
+        padding: 10px;
+        text-align: center;
+    }
+    .footerD{
+        margin: 10%;
+    }
+    #signUpForm{
+        margin-top: 12%;
+    }
+    main{
+        margin-top: 8%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #userDetails{
+        margin-top: 15%;
+        padding-left: 30px;
+    }
+    main{
+        margin-top: 10%;
+    }
+    #signUpForm{
+        margin-top: 8%;
+    }
+    .customModal{
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .customNavBar a{
+        margin-left: 40%;
+    }
+    #userDetails{
+        margin-top: 22%;
+    }
+    #snameName{
+        font-size: 25px;
+    }   
+    main{
+        margin-top: 12%;
+    } 
+    #signUpForm{
+        margin-top: 10%;
+    }
+    .customModal{
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .customNavBar a{
+        font-size: 10px;
+        margin-left: 12%;
+    }
+    #userDetails{
+        margin-top: 40%;
+    }
+    #snameName{
+        font-size: 18px;
+    }   
+    #status{
+        font-size: 12px;
+    }
+    .footerD{
+        margin: 5%;
+    }
+    #indexfooter{
+        margin-top: 20%;
+        padding: 8px;
+        text-align: center;
+    }
+        #signInBtn{
+        width: 120px;
+    } 
+    main{
+        margin-top: 20%;
+    }   
+    #signUpForm{
+        margin-top: 15%;
+    } 
+    .customModal{
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .customNavBar a{
+        font-size: 10px;
+        margin-left: 10%;
+    }
+    #userDetails{
+        margin-top: 45%;
+    }
+    #snameName{
+        font-size: 18px;
+    }
+    #status{
+        font-size: 10px
+    }  
+    main{
+        margin-top: 20%;
+    }  
+    #signUpForm{
+        margin-top: 20%;
+    }
+    .customModal{
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .customNavBar{
+        padding: 0px;
+        height: 30px;
+    }
+    .customNavBar a{
+        font-size: 9px;
+        padding: 5px;
+    }
+    #userDetails{
+        margin-top: 55%;
+    }
+    #snameName{
+        font-size: 18px;
+    }  
+    main{
+        margin-top: 25%;
+    }   
+    #signUpForm{
+            margin-top: 25%;
+    }
+    .customModal{
+        margin-top: 20%;
+    }
+}
